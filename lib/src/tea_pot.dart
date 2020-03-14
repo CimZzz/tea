@@ -17,7 +17,11 @@ class TeaPot<T> {
 				}
 				else if(dropBefore) {
 					_completer.complete(_teaBag.dirtyTea(null, null));
+					_teaBag.tryStop();
 					_completer = null;
+				}
+				else {
+					_teaBag.tryStop();
 				}
 			}
 		}

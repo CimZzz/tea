@@ -19,4 +19,9 @@ abstract class TeaBag<T> {
 	TeaCup<T> dirtyTea(dynamic e, StackTrace stackTrace) {
 		return TeaCup(isQualified: false, dirtyThings: e);
 	}
+	
+	/// 尝试终止做茶
+	void tryStop() {
+	
+	}
 }
