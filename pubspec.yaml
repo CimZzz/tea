@@ -1,0 +1,8 @@
+name: tea
+description: Do you like to drink tea ?
+version: 1.0.1
+homepage: https://github.com/CimZzz/tea
+author: cimzzz <1152564696@qq.com>
+
+environment:
+  sdk: '>=2.2.0 <3.0.0'
